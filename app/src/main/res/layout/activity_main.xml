@@ -19,4 +19,44 @@
         android:layout_height="wrap_content"
         tools:text="14 °C / 39 °F"/>
 
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/cloudness"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/cloudy_icon"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/current_speed"/>
+
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="0"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/deviationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get deviation"/>
+
+    <TextView
+        android:id="@+id/deviation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="0"/>
+
+    <ProgressBar
+        android:layout_marginTop="20dp"
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
 </LinearLayout>
